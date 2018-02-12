@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="@dimen/icon_top_margin"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        >
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stEntName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/EntName"
+                android:inputType="text"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Address"
+                android:inputType="text"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/City"
+                android:inputType="text"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/State"
+                android:inputType="text"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stPincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Pin_code"
+                android:inputType="number"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Phone"
+                android:inputType="phone"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stLicense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/License"
+                android:inputType="text"
+                android:textSize="8sp" >
+            <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stnoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/No_of_companies"
+                android:inputType="number"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stnor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/No_of_retailers"
+                android:inputType="number"
+                android:textSize="8sp" >
+                <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/stdelev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/No_of_delievery_people"
+                android:inputType="text"
+                android:textSize="8sp" >
+            <requestFocus/>
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/submit"
+            android:onClick="submitForm"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="8sp" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
